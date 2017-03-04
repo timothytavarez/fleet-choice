@@ -4,7 +4,7 @@ body {
   height: 100%;
 }
 
-.main {
+.main, article {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,5 +12,13 @@ body {
 }
 
 article {
+  padding: 30px 20px 30px 20px;
+}
 
+article p {
+  text-align: justify;
+}
+
+h2 {
+  border-bottom: 1px solid;
 }

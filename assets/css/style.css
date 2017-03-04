@@ -2,10 +2,19 @@ body {
   font-family: 'Roboto', sans-serif;
   height: 100%; }
 
-.main {
+.main, article {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+
+article {
+  padding: 30px 20px 30px 20px; }
+
+article p {
+  text-align: justify; }
+
+h2 {
+  border-bottom: 1px solid; }
 
 /*# sourceMappingURL=style.css.map */
